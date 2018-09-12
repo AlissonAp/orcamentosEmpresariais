@@ -1,0 +1,28 @@
+{
+    "NomeEmpresa": "",
+    "CNPJ": "",
+    "Previstos": [
+        {
+            "Ano": 2018,
+            "Valor": 1000
+        },
+        {
+            "Ano": 2019,
+            "Valor": 1000
+        }
+    ],
+    "Custos": [
+        {
+            "Descricao": "",
+            "ValorTotal": "",
+            "Custo": "Infra",
+            "CustosVinculados": [
+                {
+                    "Descricao": "",
+                    "Valor": "",
+                    "Data": ""
+                }
+            ]
+        }
+    ]
+}
