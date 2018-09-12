@@ -1,0 +1,18 @@
+.main-container{
+    width: 100%;
+    padding: 5%;
+}
+
+.tab-cadastro{
+    background-color: white;
+    padding:15px;
+}
+
+.tab-cadastro input{
+    margin: 5px;
+    padding: 2px;
+}
+
+.tab-listagem{
+    background-color: rgb(180, 180, 180)
+}
