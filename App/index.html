@@ -1,35 +1,37 @@
 <html>
 
 <head>
-    <title>
-        Controle de finanças
-    </title>
+    <title>Controle de finanças</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
     <div id="mainContainer" class="main-container">
+
         <button onClick="cadastrarPrevisoes()" class="btn btn-primary">Cadastrar previsões</button>
         <button onClick="cadastrarCustos()" class="btn btn-primary">Cadastrar custos</button>
+
+        <div id="containerCustos">
+
+            <div class="tab-cadastro">
+                <h3>Cadastro de custos</h3>
+            </div>
+            <div class="tab-listagem">
+                <h3>Listagem de custos</h3>
+            </div>
+        </div>
+
+        <div id="containerPrevisoes">
+            <div class="tab-cadastro">
+                <h3>Cadastro de previsões</h3>
+            </div>
+            <div class="tab-listagem">
+                <h3>Listagem de previsões</h3>
+            </div>
+        </div>
     </div>
-
-    <div id="containerCustos">
-        <div class="tab-cadastro">
-
-        </div>
-        <div class="tab-listagem">
-
-        </div>
-    </div>
-
-    <div id="containerPrevisoes">
-        <div class="tab-cadastro">
-
-        </div>
-        <div class="tab-listagem">
-
-        </div>
-    </div>
-
 </body>
 
 </html>
